@@ -1,0 +1,15 @@
+body {
+  font-size: 1.2rem;
+}
+
+.list-style-none {
+  list-style: none;
+}
+
+.list-style-heart {
+  list-style-image: url('./favicon.png');
+}
+
+.roman-list {
+  list-style: upper-roman;
+}
