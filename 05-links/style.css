@@ -10,14 +10,21 @@ h1 {
   color: yellow;
 }
 
-div {
-  background-color: lightyellow;
-  color: black;
-  padding: 10px;
+a {
+  color: lightgreen;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 footer {
-  background-color: lightblue;
-  color: black;
+  background-color: gray;
+  border-radius: 5px;
   padding: 10px;
+}
+
+footer > a {
+  color: lightgreen;
 }

@@ -1,15 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
 body {
-  font-size: 1.2rem;
+  background-color: #333;
+  font-family: 'Open Sans', sans-serif;
+  color: whitesmoke;
 }
 
-.list-style-none {
-  list-style: none;
+h1 {
+  color: yellow;
 }
 
-.list-style-heart {
-  list-style-image: url('./favicon.png');
+div {
+  background-color: lightyellow;
+  color: black;
+  padding: 10px;
 }
 
-.roman-list {
-  list-style: upper-roman;
+footer {
+  background-color: lightblue;
+  color: black;
+  padding: 10px;
 }
