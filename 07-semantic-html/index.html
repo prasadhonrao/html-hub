@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="thegeekspad" />
+    <meta name="website" content="https://thegeekspad.com" />
+    <meta name="email" content="support@thegeekspad.com" />
+    <meta name="description" content="Semantic HTML" />
+    <meta name="keywords" content="css, html, javascript, web " />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Semantic HTML</title>
+  </head>
+  <body>
+    <header id="top">
+      <h1>My goals for this year</h1>
+      <nav aria-label="primary-navigation">
+        <ul>
+          <li><a href="#html">Learning HTML</a></li>
+          <li><a href="#vacation">Planning a vacation</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <hr />
+
+    <main>
+      <article id="html">
+        <h2>I am ready to learn HTML</h2>
+        <p>This is my first web page</p>
+
+        <section>
+          <h3>HTML 5</h3>
+          <figure>
+            <figcaption></figcaption>
+            <img src="img/html.jpg" alt="HTML Logo" width="300" height="200" />
+            <p>
+              Example of HTML code:
+              <code>&lt;h1&gt; Hello World &lt;/h1&gt;</code>
+            </p>
+          </figure>
+        </section>
+
+        <section>
+          <h3>My Daily Schedule</h3>
+          <p>Let me tell you how I spend my day learning HTML.</p>
+          <ol>
+            <li>Wake up</li>
+            <li>Brush my teeth</li>
+            <li>Take a shower</li>
+            <li>Have breakfast</li>
+            <li>
+              Start learning HTML from
+              <abbr title="Mozilla Developer Network"
+                ><a href="https://developer.mozilla.org/en-US/">MDN</a></abbr
+              >
+            </li>
+          </ol>
+          <aside>
+            <details>
+              <summary>What is MDN?</summary>
+              <p>
+                <mark>MDN</mark> is a website where you can learn about web
+                technologies like HTML, CSS, JavaScript, etc.
+              </p>
+            </details>
+            <details>
+              <summary>Guess how much time I spend learning?</summary>
+              <p>
+                I spend about <time datetime="PT3H">2 hours</time> learning HTML
+                every day. I start at <time datetime="08:00">8:00 am</time> and
+                finish at <time datetime="10:00">10:00 am</time>.
+              </p>
+
+              <table>
+                <caption>
+                  My Schedule
+                </caption>
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Time</th>
+                    <th>Activity</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td rowspan="6">Morning</td>
+                    <td>08:00</td>
+                    <td>Wake up</td>
+                  </tr>
+                  <tr>
+                    <td>08:15</td>
+                    <td>Brush my teeth</td>
+                  </tr>
+                  <tr>
+                    <td>08:30</td>
+                    <td>Take a shower</td>
+                  </tr>
+                  <tr>
+                    <td>08:45</td>
+                    <td>Have breakfast</td>
+                  </tr>
+                  <tr>
+                    <td>09:00</td>
+                    <td>Start learning HTML</td>
+                  </tr>
+                  <tr>
+                    <td>10:00</td>
+                    <td>Finish learning HTML</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="3">Afternoon</td>
+                    <td>10:30</td>
+                    <td>Break</td>
+                  </tr>
+                  <tr>
+                    <td>10:30</td>
+                    <td>Daily Standup</td>
+                  </tr>
+                  <tr>
+                    <td>11:30</td>
+                    <td>Office</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="">Evening</td>
+                    <td>18:00</td>
+                    <td>Family and Friends</td>
+                  </tr>
+                </tbody>
+              </table>
+            </details>
+          </aside>
+        </section>
+      </article>
+
+      <hr />
+
+      <article id="vacation">
+        <h2>I am also planning a vacation</h2>
+        <p>I've been working hard and <em>really need a getaway</em></p>
+        <p>
+          I live in <abbr title="London">London</abbr> so I want to visit a
+          beach
+        </p>
+
+        <section>
+          <h3>Places I like to visit</h3>
+          <p>I've heard good things about the south coast so I'm going here</p>
+          <ul id="images">
+            <li>
+              <figure>
+                <figcaption>
+                  Brownsea Island, Poole Harbour, Poole, Dorset coast
+                </figcaption>
+                <img
+                  src="img/brownsea.jpg"
+                  alt="Brownsea Island"
+                  width="300"
+                  height="200"
+                  loading="lazy" />
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <figcaption>
+                  Durdle Door, West Lulworth, Dorset coast
+                </figcaption>
+                <img
+                  src="img/durdle-door.jpg"
+                  alt="Durdle Door"
+                  width="300"
+                  height="200"
+                  loading="lazy" />
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <figcaption>
+                  Corfe Castle, Corfe Castle, Dorset coast
+                </figcaption>
+                <img
+                  src="img/corfe-castle.jpg"
+                  alt="Corfe Castle"
+                  width="300"
+                  height="200"
+                  loading="lazy" />
+              </figure>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Places I want to avoid</h3>
+          <!-- description list -->
+          <dl>
+            <!-- description title -->
+            <dt>Blackpool</dt>
+            <!-- description detail -->
+            <dd>Too busy</dd>
+
+            <dt>Whitby</dt>
+            <dd>Too cold</dd>
+
+            <dt>Scarborough</dt>
+            <dd>Too busy and too cold</dd>
+          </dl>
+        </section>
+      </article>
+    </main>
+
+    <hr />
+
+    <footer>
+      &copy; 2023 <a href="http://thegeekspad.com">thegeekspad</a>. Read more
+      thegeekspad about <a href="about.html">here</a>. Back to top
+      <a href="#top">↑</a>
+    </footer>
+  </body>
+</html>
